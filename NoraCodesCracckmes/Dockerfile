@@ -8,6 +8,8 @@ RUN apt-get update
 
 RUN apt-get install -y make gcc micro
 
-RUN make
+RUN make crackme01e
 
-CMD ["./passtrCrack"]
+RUN make crackme02
+
+RUN make crackme02e
